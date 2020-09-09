@@ -5,6 +5,8 @@ const app = require('../lib/app');
 
 describe('postgres_models routes', () => {
   beforeEach(() => {
-    return pool.query(fs.readFileSync('./sql/setup.sql', 'utf-8'))
+    return pool.query(fs.readFileSync('./sql/setup.sql', 'utf-8'));
   });
+
+  // CRUD route tests here
 });
